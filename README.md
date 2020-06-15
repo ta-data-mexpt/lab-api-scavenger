@@ -70,7 +70,7 @@ You will find out how many programming languages are used among all the forks cr
 
 1. Print the language array. It should be something like:
 
-	```["Python", "Jupyter Notebook", "HTML"]```
+	```["Jupyter Notebook", "HTML"]```
 
 Again, the documentation of Github API is [here](https://developer.github.com/v3/).
 
