@@ -76,9 +76,9 @@ Again, the documentation of Github API is [here](https://developer.github.com/v3
 
 ### Challenge 2: Count Commits
 
-Count how many commits were made in the past week.
+Count how many commits were made in the month of october 2018.
 
-1. Obtain all the commits made in the past week via API, which is a JSON array that contains multiple commit objects.
+1. Obtain all the commits made in October 2018 via API, which is a JSON array that contains multiple commit objects.
 
 1. Count how many commit objects are contained in the array.
 
