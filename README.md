@@ -136,7 +136,7 @@ Upon completion, add your deliverables to git. Then commit git and push your cod
 
 So far we have practiced a lot with the `GET` method but not `PUT`, `POST`, `PATCH`, or `DELETE`. If you wonder what are the differences, refer to the following:
 
-https://spring.io/understanding/REST
+https://spring.io/guides/tutorials/rest/
 
 Simply put, the `GET` method only allows you to obtain data from API. But the other methods allow you to modify the data stored in the database behind the API. The API must be programmed to support each of these methods though.
 
