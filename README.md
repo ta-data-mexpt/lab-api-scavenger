@@ -72,7 +72,7 @@ You will find out how many programming languages are used among all the forks cr
 
 	```["Jupyter Notebook", "HTML"]```
 
-Again, the documentation of Github API is [here](https://developer.github.com/v3/).
+Again, the documentation of Github API is [here](https://docs.github.com/en/rest).
 
 ### Challenge 2: Count Commits
 
@@ -92,7 +92,7 @@ The filenames of the secret files contain `.scavengerhunt` and they are scattere
 
 Notes:
 
-* Github API documentation can be found [here](https://developer.github.com/v3/).
+* Github API documentation can be found [here](https://docs.github.com/en/rest).
 
 * You will need to study the Github API documentation to decide which API endpoint to call and what parameters to use in order to obtain the information you need. Unless you are already super familiar with Github API or super lucky, you probably will do some trials and errors. Therefore, be prepared to go back and forth in studying the API documentation, testing, and revising until you obtain what you need.
 
@@ -124,7 +124,7 @@ Upon completion, add your deliverables to git. Then commit git and push your cod
 
 ## Resources
 
-[Github RESTFUL API Documentation](https://developer.github.com/v3/)
+[Github RESTFUL API Documentation](https://docs.github.com/en/rest)
 
 [OAuth](https://oauth.net/)
 
