@@ -15,7 +15,7 @@ In order to get started, we'd like you to create an access token in your [Github
 1. Select the scopes for which you allow the token to access. Check at least all the `repo` checkboxes as shown in the screenshot below.
 1. Click `Generate token`. Github will create a personal access token for you. 
 
-![Github create personal token](../../images/github-create-token.png)
+![Github create personal token](./images/github-create-token.png)
 
 A personal access token is a secret password to allow you or your app to make remote requests to the Github API. It is the same [oAuth](https://oauth.net/) technology as the Twitter developer access token discussed in the lesson but in Github you don't need to wait for the approval and your token will be available immediately. 
 
@@ -70,15 +70,15 @@ You will find out how many programming languages are used among all the forks cr
 
 1. Print the language array. It should be something like:
 
-	```["Python", "Jupyter Notebook", "HTML"]```
+	```["Jupyter Notebook", "HTML"]```
 
-Again, the documentation of Github API is [here](https://developer.github.com/v3/).
+Again, the documentation of Github API is [here](https://docs.github.com/en/rest).
 
 ### Challenge 2: Count Commits
 
-Count how many commits were made in the past week.
+Count how many commits were made in the month of october 2018.
 
-1. Obtain all the commits made in the past week via API, which is a JSON array that contains multiple commit objects.
+1. Obtain all the commits made in October 2018 via API, which is a JSON array that contains multiple commit objects.
 
 1. Count how many commit objects are contained in the array.
 
@@ -92,7 +92,7 @@ The filenames of the secret files contain `.scavengerhunt` and they are scattere
 
 Notes:
 
-* Github API documentation can be found [here](https://developer.github.com/v3/).
+* Github API documentation can be found [here](https://docs.github.com/en/rest).
 
 * You will need to study the Github API documentation to decide which API endpoint to call and what parameters to use in order to obtain the information you need. Unless you are already super familiar with Github API or super lucky, you probably will do some trials and errors. Therefore, be prepared to go back and forth in studying the API documentation, testing, and revising until you obtain what you need.
 
@@ -116,11 +116,7 @@ Notes:
 
 ## Deliverables
 
-* `challenge-1.py` or `challenge-1.ipynb` that contains your solution to Challenge 1.
-
-* `challenge-2.py` or `challenge-1.ipynb` that contains your solution to Challenge 2.
-
-* `challenge-3.py` or `challenge-1.ipynb` that contains your solution to Challenge 3.
+* `main.ipynb` that contains your solution to all the challenges.
 
 ## Submission
 
@@ -128,7 +124,7 @@ Upon completion, add your deliverables to git. Then commit git and push your cod
 
 ## Resources
 
-[Github RESTFUL API Documentation](https://developer.github.com/v3/)
+[Github RESTFUL API Documentation](https://docs.github.com/en/rest)
 
 [OAuth](https://oauth.net/)
 
@@ -140,7 +136,7 @@ Upon completion, add your deliverables to git. Then commit git and push your cod
 
 So far we have practiced a lot with the `GET` method but not `PUT`, `POST`, `PATCH`, or `DELETE`. If you wonder what are the differences, refer to the following:
 
-https://spring.io/understanding/REST
+https://spring.io/guides/tutorials/rest/
 
 Simply put, the `GET` method only allows you to obtain data from API. But the other methods allow you to modify the data stored in the database behind the API. The API must be programmed to support each of these methods though.
 
