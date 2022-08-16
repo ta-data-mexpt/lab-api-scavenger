@@ -23,6 +23,7 @@ while exist_more_results:
 	print(final_url)
 	all_forks = requests.get(final_url, auth = (user_name, password))
 	forks_response = json.loads(all_forks.content)
+	print(forks_response)
 	more_languages = {element["language"] for element in forks_response}
 	languages = languages | more_languages
 	next_url_element = all_forks.headers["Link"]
